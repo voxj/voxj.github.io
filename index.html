@@ -10,6 +10,7 @@
   <h2>later i'll put more of my projects here</h2>
 </div>
 <button id="hackInj">HackInjector</button>
+<button id="appLaunch">App Launcher</button>
 <style>
   body {
     color: #F0F0F0;
@@ -21,7 +22,7 @@
     padding-top: 50px;
     font-family: Poppins, sans-serif;
   }
-  #hackInj {
+  button {
   padding-top: 25px;
   background-color: #007bff;
   border: none;
@@ -36,12 +37,15 @@
   cursor: pointer;
 }
 
-#hackInj:hover {
+button:hover {
   background-color: #0069d9;
 }
 </style>
 <script>
   document.getElementById("hackInj").addEventListener("click", function() {
   location.href = "https://github.com/voxj/HackInjector/releases/tag/v1.2.0";
+});
+  document.getElementById("appLaunch").addEventListener("click", function() {
+  location.href = "https://github.com/voxj/app-launcher/releases/tag/1.0.0";
 });
 </script>
