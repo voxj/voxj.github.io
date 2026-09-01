@@ -2,16 +2,10 @@
   "otv.ex": {
     "url": "https://example.com"
   },
-  "electroboob.web": {
-    "url": "https://youtube.com/@ElectroBoom"
+  "void.ex": {
+    "url": "https://httpbin.org/html"
   },
-  "gugol.com": {
-    "url": "https://google.com"
-  },
-  "mytasty.ex": {
-    "url": "https://example.com/"
-  },
-  "news.xp": {
-    "url": "http://kcna.kp"
+  "google.com": {
+    "url": "https://example.org"
   }
 }

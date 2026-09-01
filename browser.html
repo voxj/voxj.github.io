@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Fictional Browser</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="title-bar">
+  <div id="drag-region"><span id="app-icon">🌐</span><span id="app-title">Fictional Browser</span></div>
+  <div id="win-controls">
+    <button class="win-btn" id="btn-min">─</button>
+    <button class="win-btn" id="btn-max">□</button>
+    <button class="win-btn close" id="btn-close">✕</button>
+  </div>
+</div>
+
+<div id="tab-bar"><div id="tabs"></div><button id="btn-newtab">+</button></div>
+
+<div id="toolbar">
+  <button id="nav-back" class="tool-btn">←</button>
+  <button id="nav-fwd" class="tool-btn">→</button>
+  <button id="nav-reload" class="tool-btn">↻</button>
+  <button id="mode-toggle" class="mode-btn fiction"><span class="mode-icon">✦</span><span class="mode-text">FICTION</span></button>
+  <div id="omnibox-wrap"><input id="omnibox" type="text" spellcheck="false" placeholder="Enter URL…"></div>
+</div>
+
+<div id="content"></div>
+
+<script src="renderer.js"></script>
+</body>
+</html>
